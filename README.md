@@ -19,3 +19,5 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev
 ```
+
+![スクリーンショット 2020-02-22 16 49 52](https://user-images.githubusercontent.com/1210720/75088649-88174000-5593-11ea-89f7-ef57c3c83671.png)
