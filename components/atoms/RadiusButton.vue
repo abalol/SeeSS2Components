@@ -26,10 +26,10 @@ export default {
 <style lang="scss" scoped>
 .is-disabled {
   display: inline-block;
-  background-color: #eee;
+  background-color: $DISABLED_BACKGROUND;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #ccc;
+  color: $DISABLED_TEXT;
   text-decoration: none;
   user-select: none;
   border: 1px #ccc solid;
@@ -41,15 +41,15 @@ export default {
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8rem;
-  color: #00b5ad;
+  color: $MAIN_COLOR;
   text-decoration: none;
   user-select: none;
-  border: 1px #00b5ad solid;
+  border: 1px $MAIN_COLOR solid;
   border-radius: 20px;
   transition: 0.4s ease;
 }
 .radius-button:hover {
-  color: #fff;
-  background: #00b5ad;
+  color: $LIGHT_TEXT;
+  background: $MAIN_COLOR;
 }
 </style>

@@ -49,9 +49,9 @@ img {
   left: 0;
   padding: 0.4em;
   font-size: 1rem;
-  color: #fff;
+  color: $LIGHT_TEXT;
   content: 'NEW';
-  background: #00b5ad;
+  background: $MAIN_COLOR;
 }
 
 .content-img {

@@ -10,7 +10,7 @@ export default {}
 .heading {
   padding-left: 0.5em;
   font-size: 1.5em;
-  color: #333;
-  border-left: 4px solid #00b5ad;
+  color: $HEADING_TEXT;
+  border-left: 4px solid $MAIN_COLOR;
 }
 </style>

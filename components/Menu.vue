@@ -46,7 +46,7 @@ export default {
   width: 40px;
   height: 4px;
   margin: 4px 0;
-  background-color: $TEXT_COLOR;
+  background-color: $MAIN_COLOR;
   border-radius: 4px;
   transition: all 0.4s;
   z-index: 999;
@@ -96,7 +96,7 @@ export default {
   width: 200px;
   padding: 0.2em 0;
   font-size: 14px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 0.5em;
   box-shadow: 0 0 9px 2px #e0e0e0;
 }
@@ -119,7 +119,7 @@ export default {
 }
 
 .dropdown-wrap:hover {
-  background: #eee;
+  background-color: #eee;
 }
 
 .header-dropdown a {

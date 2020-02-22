@@ -12,7 +12,7 @@ export default {}
   font-size: 1.5em;
   padding-bottom: 0.35em;
   border-bottom: 4px solid #ccc;
-  color: #333;
+  color: $HEADING_TEXT;
 }
 
 .heading::before,
@@ -32,6 +32,6 @@ export default {}
 .heading::after {
   left: 50px;
   width: 2px;
-  background-color: #fff;
+  background-color: $LIGHT_TEXT;
 }
 </style>

@@ -10,7 +10,7 @@ export default {}
 .heading {
   position: relative;
   font-size: 1.5em;
-  color: #333;
+  color: $HEADING_TEXT;
   text-align: center;
 }
 

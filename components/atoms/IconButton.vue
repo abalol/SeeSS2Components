@@ -28,7 +28,7 @@ export default {
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #00b5ad;
+  color: $MAIN_COLOR;
   text-align: center;
   text-decoration: none;
   cursor: pointer;

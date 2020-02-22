@@ -35,6 +35,6 @@ export default {
 }
 
 .logo {
-  color: #00b5ad;
+  color: $MAIN_COLOR;
 }
 </style>

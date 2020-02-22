@@ -26,10 +26,10 @@ export default {
 <style lang="scss" scoped>
 .is-disabled {
   display: inline-block;
-  background-color: #eee;
+  background-color: $DISABLED_BACKGROUND;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #ccc;
+  color: $DISABLED_TEXT;
   text-decoration: none;
   user-select: none;
   border: 1px #ccc solid;
@@ -41,11 +41,11 @@ export default {
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #fff;
+  color: $LIGHT_TEXT;
   text-decoration: none;
   user-select: none;
-  background: #00b5ad;
-  border: 1px #00b5ad solid;
+  background: $MAIN_COLOR;
+  border: 1px $MAIN_COLOR solid;
   border-radius: 3px;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
   transition: 0.2s ease;

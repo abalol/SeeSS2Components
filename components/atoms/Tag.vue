@@ -17,7 +17,7 @@ export default {
 .text {
   padding: 0.1em 0.5em;
   font-size: 0.8em;
-  color: #fff;
+  color: $LIGHT_TEXT;
   background: #333;
   border-radius: 4px;
   text-decoration: none;

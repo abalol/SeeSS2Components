@@ -24,8 +24,8 @@ export default {
   height: 0.4em;
   margin: 0 0.2em 0.1em;
   content: '';
-  border-right: 0.14em solid $TEXT_COLOR;
-  border-bottom: 0.14em solid $TEXT_COLOR;
+  border-right: 0.14em solid $MAIN_COLOR;
+  border-bottom: 0.14em solid $MAIN_COLOR;
   transform: rotate(-45deg);
 }
 
