@@ -1,8 +1,14 @@
-# seess
+## See-ssの各種コンポーネントをVue Component化していく計画
 
-> See-ss Components
+[一覧で見やすいコピペCSSサンプルサイト](https://see-ss.com/)
 
-## Build Setup
+
+で用意されている各種コンポーネントをVue.js(Nuxt.js)で  
+簡単に使えるようVue Component化しています。
+
+「Normalize.css」と「FontAwesome」の使用が推奨されているため導入しています。
+
+## 動作確認はCloneした上で、以下コマンドにてご確認ください。
 
 ``` bash
 # install dependencies
@@ -10,13 +16,4 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
