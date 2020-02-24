@@ -11,7 +11,7 @@ export default {}
   position: relative;
   font-size: 1.5em;
   padding-bottom: 0.35em;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid $DISABLED_TEXT;
   color: $HEADING_TEXT;
 }
 
@@ -26,7 +26,7 @@ export default {}
 .heading::before {
   left: 0;
   width: 50px;
-  background-color: #2980b9;
+  background-color: $ACCENT_COLOR;
 }
 
 .heading::after {

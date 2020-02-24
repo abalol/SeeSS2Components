@@ -11,6 +11,6 @@ export default {}
   padding-left: 0.5em;
   font-size: 1.5em;
   color: $HEADING_TEXT;
-  border-left: 4px solid $MAIN_COLOR;
+  border-left: 4px solid $ACCENT_COLOR;
 }
 </style>

@@ -21,7 +21,7 @@ export default {}
   display: inline-block;
   width: 10%;
   content: '';
-  border-top: 3px solid #333;
+  border-top: 3px solid $ACCENT_COLOR;
 }
 
 .heading::before {

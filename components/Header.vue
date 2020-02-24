@@ -2,24 +2,21 @@
   <header class="header">
     <div class="header-inner">
       <h1 class="logo">
-        <p>See-SS 2 Components</p>
+        Sample Header
       </h1>
-      <Menu />
     </div>
   </header>
 </template>
 
 <script>
-import Menu from '@/components/Menu.vue'
 export default {
-  components: {
-    Menu
-  }
+  components: {}
 }
 </script>
 
 <style lang="scss" scoped>
 .header {
+  background-color: $MAIN_COLOR;
   box-sizing: border-box;
   width: 100%;
 }
@@ -35,6 +32,7 @@ export default {
 }
 
 .logo {
-  color: $MAIN_COLOR;
+  margin: 0;
+  color: $BASE_COLOR;
 }
 </style>

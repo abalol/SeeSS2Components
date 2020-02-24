@@ -5,7 +5,7 @@
 .marker {
   font-weight: bold;
   font-size: 1.2em;
-  background: linear-gradient(transparent 75%, #ffb5ad 75%);
+  background: linear-gradient(transparent 75%, $ACCENT_COLOR 75%);
   margin: 0 0.2em;
 }
 </style>
