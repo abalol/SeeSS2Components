@@ -36,6 +36,7 @@ export default {
   border-radius: 3px;
   transition: 0.4s ease;
   margin: $BUTTON_MARGIN;
+  line-height: 1.7em;
 }
 .button {
   display: inline-block;
@@ -46,10 +47,10 @@ export default {
   user-select: none;
   background: $MAIN_COLOR;
   border: 1px $MAIN_COLOR solid;
-  border-radius: 3px;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
   transition: 0.2s ease;
   margin: $BUTTON_MARGIN;
+  line-height: 1.7em;
 }
 .button:hover {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);

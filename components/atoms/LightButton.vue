@@ -36,6 +36,7 @@ export default {
   border-radius: 3px;
   transition: 0.4s ease;
   margin: $BUTTON_MARGIN;
+  line-height: 1.7em;
 }
 .light-button {
   display: inline-block;
@@ -48,6 +49,7 @@ export default {
   border-radius: 3px;
   transition: 0.4s ease;
   margin: $BUTTON_MARGIN;
+  line-height: 1.7em;
 }
 .light-button:hover {
   color: $LIGHT_TEXT;

@@ -1,9 +1,5 @@
 <template>
-  <div
-    href="#!"
-    :type="buttonType"
-    :class="[disabled ? 'is-disabled' : 'radius-button']"
-  >
+  <div :type="buttonType" :class="[disabled ? 'is-disabled' : 'radius-button']">
     <font-awesome-icon v-if="icon" :icon="icon" />
     <slot></slot>
   </div>
@@ -36,6 +32,7 @@ export default {
   border-radius: 20px;
   transition: 0.4s ease;
   margin: $BUTTON_MARGIN;
+  line-height: 1.7em;
 }
 .radius-button {
   display: inline-block;
@@ -47,6 +44,7 @@ export default {
   border: 1px $MAIN_COLOR solid;
   border-radius: 20px;
   transition: 0.4s ease;
+  line-height: 1.7em;
 }
 .radius-button:hover {
   color: $LIGHT_TEXT;
